@@ -1,12 +1,17 @@
-# #TWSThreeTierAppChallenge
 
-## Overview
-This repository hosts the `#TWSThreeTierAppChallenge` for the TWS community. 
-The challenge involves deploying a Three-Tier Web Application using ReactJS, NodeJS, and MongoDB, with deployment on AWS EKS. Participants are encouraged to deploy the application, add creative enhancements, and submit a Pull Request (PR). Merged PRs will earn exciting prizes!
+<img width="1693" height="579" alt="Screenshot 2025-12-28 220307" src="https://github.com/user-attachments/assets/79244796-91c9-45e1-ada0-f846442f70ad" />
 
-**Get The Challenge here**
-
-[![YouTube Video](https://img.youtube.com/vi/tvWQRTbMS1g/maxresdefault.jpg)](https://youtu.be/tvWQRTbMS1g?si=eki-boMemxr4PU7-)
+3-Tier Cloud-Native Application on AWS (EKS + ECR + ALB Ingress)
+I’m excited to share my 3-tier cloud-native application deployed on AWS EKS (Kubernetes), using Amazon ECR for container image storage and exposed through an AWS Application Load Balancer (ALB) provisioned via Kubernetes Ingress.
+🔹 Architecture Overview
+The application follows a Frontend – Backend – Database architecture, designed for scalability, availability, and real-world cloud-native deployment.
+🧩 Technology Stack & Flow
+Frontend: React → Docker Image → Amazon ECR → Deployed on EKS
+Backend: Node.js → Docker Image → Amazon ECR → Deployed on EKS
+Database: MongoDB → Containerized & deployed on EKS
+Container Registry: Amazon ECR
+Orchestration: AWS EKS (Kubernetes)
+Traffic Management: Kubernetes Ingress → AWS Application Load Balancer (ALB)
 
 ## Prerequisites
 - Basic knowledge of Docker, and AWS services.
